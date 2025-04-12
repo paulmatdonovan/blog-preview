@@ -10,18 +10,72 @@ body {
     justify-content: center; /* Horizontal centering */
     align-items: center;
 }
+
 .container {
     /* margin: 0 auto;
     text-align: center; */
     background: hsl(0, 0%, 100%);
     max-width: 350px;
     width: 90%;
-    border: 1px solid hsl(0, 0%, 7%);
+    border: 2px solid hsl(0, 0%, 7%);
     border-radius: 8%;
     margin: 0 auto;
     text-align: center;
+    box-shadow: 6px 6px 0 0 hsl(0, 0%, 7%);
+}
+.border-box {
+    margin: 1em 1em;
+    text-align: left;
+}
+header {
+    margin-top: 1em;
 }
 header img {
-    width: 80%;
-    border-radius: 8%;
+    border-radius: 5%;
+    width: 100%;
+}
+header h4 {
+    font-weight: bold;
+    background: hsl(47, 88%, 63%);
+    width: 25%;
+    min-width: 100px;
+    padding: 0.5em 1em;
+    border-radius: 4%;
+    margin: 1em 0;
+    text-align: center;
+}
+header p {
+    padding-bottom: 1em;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+    border-top: 1em;
+}
+.profile img {
+    max-width: 2.5em;
+}
+
+.change-text {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+p {
+    color: hsl(0, 0%, 42%);
+}
+header p {
+    color: hsl(0, 0%, 7%);
+}
+.main-text {
+    margin-bottom: 1em;
+}
+.profile p {
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}
+.change-text:hover {
+    color: hsl(47, 88%, 63%);
 }
